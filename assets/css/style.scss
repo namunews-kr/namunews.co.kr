@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+footer.site-footer {
+  display: none !important;
+}
+
+.btn {
+  display: none !important;
+}
+
+.main-content footer .company-info {
+    font-size: small;
+    color: silver;
+    margin-top: 3em;
+    border-top: 1px solid silver;
+    padding-top: 3em;
+}
